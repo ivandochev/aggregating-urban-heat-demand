@@ -1,5 +1,7 @@
 # aggregating-urban-heat-demand
-The script included here aims at aggregating buildings in urban space, so that heat demand characteristics can be made publicly available without breaking data protection requrements 
+The script included here aims at aggregating buildings in urban space, so that heat demand characteristics can be made publicly available without breaking data protection requirements. 
+
+
 
 ## Script inputs
 - **input_layer_name**
@@ -12,7 +14,7 @@ The script included here aims at aggregating buildings in urban space, so that h
 - **nonres_fl_area_field**: total non-residential floor area of the building
 - **heww_unsan_field**: energy for heating and domestic hot water in a non-renovated building state
 - **heww_san1_field**: energy for heating and domestic hot water in a renovated building state
-- **min_cl_size**: minimum number of units per building group
+- **min_group_size**: minimum number of units per building group
 - **max_dist_factor**: the distance factor, refer to the paper.
 - **cluster_output_file**: path to save the output. Per default in a sqlite database. 
 - **building_output_file**: makes a copy of the input buildings with an added group field "cluster". Per default in a sqlite database.
