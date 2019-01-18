@@ -1,4 +1,4 @@
-# aggregating-urban-heat-demand
+# Aggregating Urban Heat Demand
 The script included here aims at aggregating buildings in urban space, so that heat demand characteristics can be made publicly available without breaking data protection requirements. 
 
 
