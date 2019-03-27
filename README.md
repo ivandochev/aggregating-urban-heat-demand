@@ -1,7 +1,7 @@
 # Aggregating Urban Heat Demand
-The script included here aims at aggregating buildings in urban space, so that heat demand characteristics can be made publicly available without breaking data protection requirements. 
+The script included here aims at aggregating buildings in urban space, so that heat demand characteristics can be made publicly available without breaking data protection requirements. Details and logic of the algorithm can be find in the working paper:
 
-
+Dochev I., Seller H., Peters I. (2018). Aggregating and visualizing urban heat demand using graph theory. A case study from Hamburg, Germany. Hamburg: HafenCity University, Technical Infrastructure Systems Group. Working Paper.
 
 ## Script inputs
 - **input_layer_name**
