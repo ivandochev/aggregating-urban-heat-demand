@@ -406,7 +406,7 @@ def aggregation(
         
     return out_rows, out_feats, fields
 
-#UPDATE FEATURES
+#RUN AGGREGATION
 tic=timeit.default_timer() # Timer begins
 input_layer = processing.getObject(input_layer_name)
 
